@@ -8,14 +8,17 @@ Both Client and Server were running on a Docker Container.
 # Project Folder : Server
 
 Server
-|__CMakeLists.txt
-|__src
-   |__server.cc
-   |__client.cc
-|__proto
-   |__hello.proto
-|__build
-   |__<all built files>
+|-CMakeLists.txt
+|
+|-src
+| |-server.cc
+| |-client.cc
+|
+|-proto
+| |-hello.proto
+|
+|-build
+| |-<all built files>
 
 
 CMakeLists.txt - Add required dependencies for proto compilation, GRPC compilation, cpp file compilation, etc
